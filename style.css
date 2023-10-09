@@ -99,9 +99,18 @@ body {
     width: 20px;
     margin-top: 15px;
   }
+
 @media screen and (max-width: 770px){
+  .banner-text p {
+    font-size: 1rem;
+  }
+  
+  .banner-text {
+    padding-top: 60%;
+  }
+  
     .banner-text h1{
-    font-size: 44px;
+    font-size: 2rem;
   }
     .banner-btn a{
         display: block;
@@ -307,6 +316,15 @@ hr{
     font-size: 14px;
   }
 }
+
+@media screen and (max-width: 770px){
+  .logo {
+    width: 160px;
+    top: -7%;
+  }
+  
+}
+
 
 
 
